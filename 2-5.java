@@ -6,15 +6,15 @@ public class Puppy{
     }
 
     public void setAge( int age ){
-        puppAge = age;
+        puppyAge = age;
     }
 
     public int getAge(){
-        System.out.println("小狗的年龄为 ： " + puppyAage );
+        System.out.println("小狗的年龄为 : " + puppyAge );
         return puppyAge;
     }
 
-    public static void main(String []args ]{
+    public static void main(String []args ){
         /*  创建对象    */
         Puppy myPuppy = new Puppy( "tommy" );
 
@@ -22,9 +22,9 @@ public class Puppy{
         myPuppy.setAge( 2 );
 
         /*  调用另一个方法获取age   */
-        myPuppy.getAge();
+        myPuppy.getAge( );
 
         /*  你也可以像下面这样访问量    */
-        System.out.printla("变量值：" + myPuppy.puppyAge ）
+        System.out.println( "变量值 :" + myPuppy.puppyAge );
     }
 }
